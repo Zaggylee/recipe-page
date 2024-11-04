@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+/*typography*/
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+li,
+h3,
+strong,
+span,
+p,
+td {
+  font-family: "Outfit", sans-serif;
+}
+/*for responsive image*/
+img {
+  max-width: 100%;
+}
+.omelette--section {
+  max-width: 45em;
+  margin-inline: auto;
+}
+@media screen and (min-width: 700px) {
+  .omelette--section {
+    padding: 2rem;
+    margin-block: 4rem;
+    border-radius: 1rem;
+  }
+  img {
+    border-radius: 0.5rem;
+  }
+}
+.sub--headline--text {
+  color: hsl(30, 10%, 34%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+.omelette-content {
+  padding: 2rem;
+}
+@media and (min-width: 700px) {
+  .omelette-content {
+    padding: 0;
+  }
+}
+/*preparation time styling*/
+.preparation--time--section {
+  background-color: hsl(330, 100%, 98%);
+}
+.preparation--time--section h3 {
+  color: hsl(332, 51%, 32%);
+}
+.preparation--time--section li {
+  color: hsl(30, 10%, 34%);
+  text-indent: 1.5rem;
+}
+.preparation--time--section li::marker {
+  color: hsl(332, 51%, 32%);
+}
+/*ingredient section styling*/
+.ingredients--section li {
+  color: hsl(30, 10%, 34%);
+  text-indent: 1.5rem;
+}
+.ingredients--section li::marker {
+  color: hsl(332, 51%, 32%);
+}
+/*instructions section styling*/
+.instructions--section li {
+  color: hsl(30, 10%, 34%);
+}
+.instructions--section li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 800;
+}
+/*nutrition section styling*/
+.nutrition--section p {
+  color: hsl(30, 10%, 34%);
+}
+.nutrition--section table {
+  width: 100%;
+}
+.nutrition--section strong {
+  color: hsl(332, 51%, 32%);
+}
+.nutrition--section td {
+  color: hsl(30, 10%, 34%);
+  padding: 1rem;
+  border-bottom: 1px solid rgb(213, 213, 213);
+}
